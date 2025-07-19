@@ -1,0 +1,45 @@
+/* Basic page styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 500px;
+    background-color:grey;
+    padding-top: 20px;
+}
+
+.sidebar .nav-link {
+    color: white;
+    padding: 22px;
+    font-size: 17px;
+}
+
+.sidebar .nav-link:hover {
+    background-color:black;
+    color: white;
+}
+
+.sidebar .nav-item h4 {
+    color:black;
+    padding: 10px;
+}
+
+/* Main Content styles */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card .btn {
+    width: 100%;
+}
